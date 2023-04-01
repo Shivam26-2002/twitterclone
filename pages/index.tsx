@@ -1,9 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import TweetEditor from "../components/tweet-editor";
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div>
+      <TweetEditor />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
